@@ -1,0 +1,1 @@
+Always add a heading inside a semantic element for accessability reasons.

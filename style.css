@@ -1,0 +1,42 @@
+
+header {
+    color: #007e99;
+    font-size: 2.0em;
+    padding: 10px ;
+}
+
+header h1{
+    color:rgb(64, 64, 179);
+}
+header span{
+    color:red;
+    padding: 10px;
+}
+nav{
+    font-size: 1.5em;
+    margin: 5px 0;
+    padding: 10px 50px;
+}
+nav li{
+    display:inline;
+    font-size: x-large;
+    margin: 0 15px;
+}
+nav li:first-child {
+    margin-left: 0px;
+}
+nav span{
+    background-color: brown;
+    color:white;
+}
+
+section{
+     position: relative;
+     width: 70%;
+     float: left;
+}
+aside{
+    position: relative;
+    width: 250%;
+    float:right;
+}
