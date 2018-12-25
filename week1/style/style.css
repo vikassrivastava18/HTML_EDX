@@ -1,8 +1,16 @@
 
+html, body {
+    height:100%;
+}
+body {
+    font: .8125em/1.5 Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #333;
+}
 header {
     color: #007e99;
-    font-size: 2.0em;
-    padding: 10px ;
+    font-size: 1.0em;
+    padding: 10px;
 }
 
 header h1{
@@ -37,6 +45,14 @@ section{
 }
 aside{
     position: relative;
-    width: 250%;
+    width: 25%;
     float:right;
+}
+main{
+    min-height: 80vh;
+}
+footer{
+    padding: 10px;
+    background-color: aqua;
+    clear: both;
 }

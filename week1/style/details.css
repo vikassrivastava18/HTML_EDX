@@ -1,0 +1,42 @@
+details{
+    display: block;
+    width:500px;
+    margin:10px 0px;
+}
+summary{
+    display: block;
+    background:#99B9AA;
+    color:white;
+    border-radius: 5px;
+    padding:5px;
+    cursor:pointer;
+    font-weight: bold;
+}
+summary::-webkit-details-marker {
+    color:#FF0000; 
+    background:#FFFF00; 
+ }
+ 
+ details[open] summary::-webkit-details-marker {
+    color:#FFFFFF; 
+    background:#FFFFFF;
+ }
+ summary::-webkit-details-marker {
+    display: none
+ }
+
+ summary:after{
+    font-size: 1.5em;;
+     content:'+';
+     color:red;
+     float:left;
+     width:20px;
+     text-align: center;
+     padding:0;
+     margin: -5px 5px 0 0;
+ }
+details[open] summary:after{
+    font-size: 1.5em;
+    content:'-';
+    color:white;
+}
